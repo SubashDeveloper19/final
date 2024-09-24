@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <!-- font-roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/input.css">
+    <!-- <link rel="stylesheet" href="./src/output.css"> -->
+</head>
+<body class="font-roboto">
+    <!-- nav bar -->
+    <header class=" bg-hero-bg bg-center bg-cover">
+        <!-- navbar -->
+        <nav class=" border-gray-200 bg-[#f3f5ff] sticky top-0">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
+                <div class="hidden w-full md:block md:w-auto " id="navbar-default ">
+                    <ul class="font-normal text-sm flex  md:space-x-8 rtl:space-x-reverse  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 ">
+                        <li>
+                            <a href="#" class="navlink_style" aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="navlink_style">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="navlink_style">Contact</a>
+                        </li>
+                    </ul>
+                </div>    
+                <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+                <p class="text-black text-[#37447E] text-[26px]">Landing</p>
+                <div class="hidden md:block">
+                    <button class="custom_buttom_one ">Buy Now</button>
+                </div>
+            </div>
+        </nav>
+        <!-- hero section -->
+         <section class="ml-12">
+            <div class="grid grid-cols-1 sm:grid-cols-2 items-center">
+                <div class="">
+                    <h1 class="text-text_primary pb-5">Introduce Your Product Quickly & Effectively</h1>
+                    <p class="font-normal text-lg text-text_secondery w-[80%] pb-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus <br><br>
+                        mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                    <button class="custom_buttom_one mr-4">Purchase UI Kit</button>
+                    <button class="custom_buttom_two ml-4"> Learn More</button>
+                </div>
+                <div>
+                    <img class="block py-16" src="./img/hero_section.png" alt="hero_bg">
+                </div>
+            </div>
+         </section>
+    </header>
+    <!--second section -->
+    <section class="py-20">
+        <div class="grid grid-cols-1 sm:grid-cols-2 container mx-auto">
+            <div class=" grid grid-cols-1 ">
+                <div>
+                    <h2 class="text-text_primary pb-4">Light, Fast & Powerful</h2>
+                    <p class="h2_p_style">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus. <br>
+                        <br>mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                </div>
+                <div class="grid grid-cols-2">
+                    <div>
+                        <img src="./img/icon/Icon.svg" alt="icon">
+                        <h3 class="text-text_primary py-4">Title Goes Here</h3>
+                        <p class="h3_p_style">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                    </div>
+                    <div>
+                        <img src="./img/icon/Icon.svg" alt="goes icon">
+                        <h3 class="text-text_primary py-4">Title Goes Here</h3>
+                        <p class="h3_p_style">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./img/second_section.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- 3rd section -->
+     <section class="py-20">
+        <div class="grid grid-cols-1 sm:grid-cols-2 container mx-auto items-center">
+            <div>
+                <img src="./img/3rd_section.png" alt="">
+            </div>
+            <div>
+                <h2 class="pb-4">Light, Fast & Powerful</h2>
+                <p class="h2_p_style">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus. <br> <br>
+                    mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            </div>
+        </div>
+     </section>
+     <!-- 4th section -->
+     <section class="py-20">
+        <div class="grid grid-cols-1 sm:grid-cols-2 container mx-auto items-center">
+            <div>
+                <img src="./img/4th_section.png" alt="">
+            </div>
+            <div>
+                <h2 class="pb-4">Light, Fast & Powerful</h2>
+                <p class="h2_p_style">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus. <br> <br>
+                    mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            </div>
+        </div>
+     </section>
+     <!-- 5th section -->
+     <section class="py-20">
+        <div class="grid grid-cols-1 sm:grid-cols-2 container mx-auto items-center">
+            <div>
+                <img src="./img/5th_section.png" alt="">
+            </div>
+            <div>
+                <h2 class="pb-4">Light, Fast & Powerful</h2>
+                <p class="h2_p_style">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus. <br> <br>
+                    mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </p>
+                <button class="custom_buttom_one mt-8">Purchase Now</button>
+            </div>
+        </div>
+     </section>
+     <!-- 6th section -->
+      <section class="sm:py-10   bg-last_bg  bg-cover sm:pt-48">
+        <div class=" container text-center mx-auto ">
+            <div>
+                <h2 class="text-text_primary">A Price To Suit Everyone</h2>
+                <p class="font-normal text-base text-[#6F7CB2] mx-auto w-[60%] my-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+            </div>
+            <div class="py-6">
+                <p class="font-medium text-[50px] text-[#222F65]">$40</p>
+                <p class="font-normal text-base text-[#37447E]">UI Design Kit</p>
+            </div>
+            <div class="py-4">
+                <p class="font-normal text-sm text-[#5D6970] mb-3">See, One price. Simple.</p>
+                <button class="custom_buttom_one sm:mb-0 mb-20">Purchase Now</button>
+            </div>
+        </div>
+      </section>
+      <!-- footer -->
+       <footer class="pt-20 bg-[#E7ECFF]">
+        <section class="">
+            <div class="flex justify-around items-center pb-12">
+                <div> <p class="font-medium text-sm text[#939EA4]">©2023 Yourcompany</p></div>
+                <div><p class="text-[#37447E] font-black text-[26px]">Landing</p></div>
+                <div><button class="custom_buttom_one">Purchase Now</button></div>
+            </div>
+            <hr class="mx-36 h-0.5 bg-[#CDD1D4] border-0 rounded ">
+             
+            <div class="flex flex-col sm:flex-row sm:justify-between items-center mx-36 pb-16 pt-10">
+                <ul class="flex space-x-16">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+                <ul class="flex space-x-16">
+                    <li><img src="./img/icon/facebook.svg " alt=""></li>
+                    <li><img src="./img/icon/in.svg " alt=""></li>
+                    <li><img src="./img/icon/tweter.svg " alt=""></li>
+                    <li><img src="./img/icon/youtube.svg " alt=""></li>
+                    <li><img src="./img/icon/Instagram.svg " alt=""></li>
+                </ul>
+            </div>
+        </section>
+       </footer>
+</body>
+</html>

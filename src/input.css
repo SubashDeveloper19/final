@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    h1 {
+        @apply text-[50px] font-medium
+    }
+    h2 {
+        @apply font-medium text-4xl
+    }
+    h3 {
+        @apply font-medium text-base
+    }
+}
+@layer utilities {
+    .navlink_style {
+        @apply block py-2 px-3 text-text_secondery rounded  md:border-0 md:hover:text-bg_primary md:p-0
+      }
+      .custom_buttom_one{
+          @apply bg-bg_primary px-10 py-3 font-medium text-white text-base text-center border-2 border-text_primary rounded-md hover:bg-white hover:text-text_primary hover:border-text_primary hover:border-2
+      }
+      .custom_buttom_two{
+          @apply bg-none px-10 py-3 font-medium text-text_primary border-2 border-text_primary text-base text-center rounded-md hover:bg-bg_primary hover:text-white
+      }
+      .h2_p_style {
+        @apply font-normal text-base text-[#6F7CB2] w-[80%]
+      }
+      .h3_p_style {
+        @apply text-[#5D6970] font-normal text-xs w-[80%]
+      }
+      .hr_style{
+        
+      }
+      
+}
